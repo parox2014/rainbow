@@ -1,0 +1,16 @@
+{
+  "name": "rainbow",
+  "version": "1.0.0",
+  "description": "A color handle plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "color",
+    "rgb2hex",
+    "hex2rgb"
+  ],
+  "author": "William <parox2014@gmail.com>",
+  "license": "MIT"
+}
