@@ -2,15 +2,26 @@
   "name": "rainbow",
   "version": "1.0.0",
   "description": "A color handle plugin",
-  "main": "index.js",
+  "main": ".lib/index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "webpack --config webpack.prod.js",
+    "dev":"webpack-dev-server --config webpack.dev.js"
   },
+  "typings":"index.d.ts",
   "keywords": [
     "color",
     "rgb2hex",
     "hex2rgb"
   ],
   "author": "William <parox2014@gmail.com>",
-  "license": "MIT"
+  "git":"git@github.com:parox2014/rainbow.git",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.9.1",
+    "webpack-cli": "^2.1.4"
+  }
 }
