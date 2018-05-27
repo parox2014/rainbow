@@ -5,11 +5,11 @@ A color handle plugin
 ## Installation
 
 ```cmd
-  yarn add rainbow
+  yarn add rainbowow
 
   #or
 
-  npm i rainbow --save
+  npm i rainbowow --save
 ```
 
 ## Import
@@ -35,7 +35,7 @@ const Rainbow=require('rainbow');
 ## Usage
 
 ```js
-var color=new Rainbow('#666');
+const color=new Rainbow('#666');
 
 color.lighten(0.2);
 color.toHex();//#7a7a7a

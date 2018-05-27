@@ -1,6 +1,6 @@
 {
-  "name": "rainbow",
-  "version": "1.0.0",
+  "name": "rainbowow",
+  "version": "1.0.1",
   "description": "A color handle plugin",
   "main": ".lib/index.js",
   "scripts": {
