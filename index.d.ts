@@ -9,6 +9,7 @@ export class Rainbow{
   lighten():Rainbow;
   toHex():string;
   toDec():string;
+  toRGBA(alpha:number):string;
 }
 
 export default Rainbow;

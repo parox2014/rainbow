@@ -54,6 +54,7 @@ color.toDec();//rgb(102,102,102)
 color.add('#666');
 color.toHex();//#e0e0e0;
 color.toDec();//rgb(224,224,224)
+color.toRGBA(0.5);//rgba(224,224,224)
 
 color.lighten(0.1).darken(0.3).toHex();
 
