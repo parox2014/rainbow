@@ -21,15 +21,16 @@ A color handle plugin
 ```
 
 ### es6
+
 ```js
-import Rainbow from 'rainbow'
+import Rainbow from 'rainbowow'
 
 ```
 
 ### cmd
 
 ```js
-const Rainbow=require('rainbow');
+const Rainbow=require('rainbowow');
 ```
 
 ## Usage
@@ -75,6 +76,7 @@ Rainbow.rgb2hex('35,125,39');//#237d27
 * `reset` : 重置为初始颜色
 * `toHex` : 返回颜色的十六进制色值，如： `#237d27`
 * `toDec` : 返回颜色的十进制色值,如：`rgb(35,254,86)`
+* `toRGBA` : 返回颜色的十进制色值，和指定的透明度,如：`rgba(35,254,86,0.2)`
 
 ### Static methods
 
@@ -96,5 +98,6 @@ export class Rainbow{
   reset():Rainbow;
   toHex():string;
   toDec():string;
+  toRGBA(alpha:number):string;
 }
 ```
