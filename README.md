@@ -1,4 +1,5 @@
-# Rainbow
+<p align="center"><img src="logo/logotype_horizontal.png" alt="rainbow" height="135px"></p>
+
 
 A color handle plugin
 
